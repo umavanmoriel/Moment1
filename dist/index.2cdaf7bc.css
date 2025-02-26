@@ -10,6 +10,7 @@
   }
 
   h1 {
+    text-align: center;
     color: #00008b;
     font-family: Roboto;
     font-size: 28px;
@@ -18,6 +19,7 @@
   }
 
   p {
+    text-align: center;
     color: #00008b;
     font-family: Merriweather;
     font-size: 22px;
@@ -40,6 +42,7 @@
   }
 
   h1 {
+    text-align: center;
     color: #00008b;
     font-family: Roboto;
     font-size: 28px;
@@ -48,6 +51,7 @@
   }
 
   p {
+    text-align: center;
     color: #00008b;
     font-family: Merriweather;
     font-size: 22px;
@@ -70,6 +74,7 @@
   }
 
   h1 {
+    text-align: center;
     color: #00008b;
     font-family: Roboto;
     font-size: 28px;
@@ -78,6 +83,7 @@
   }
 
   p {
+    text-align: center;
     color: #00008b;
     font-family: Merriweather;
     font-size: 22px;
