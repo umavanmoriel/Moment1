@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 255, 255, 0.286);
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    color: darkblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    list-style: none;
+    color: darkblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 200px;
+}
+
+footer {
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+}
+
+footer p {
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+}
