@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: aqua;
+    }
+    
+    ul {
+        display: flex;
+        gap: 60px;
+        font-family: 'Merriweather';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        list-style: none;
+        color: darkblue;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: aqua;
+    }
+    
+    ul {
+        display: flex;
+        gap: 20px;
+        font-family: 'Merriweather';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        list-style: none;
+        color: darkblue;
+    }
+}
