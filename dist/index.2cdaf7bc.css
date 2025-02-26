@@ -4,67 +4,201 @@
   padding: 0;
 }
 
-body {
-  background-color: #00ffff49;
+@media screen and (width >= 900px) {
+  body {
+    background-color: #00ffff49;
+  }
+
+  h1 {
+    color: #00008b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #00008b;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+  }
+
+  header {
+    background-color: #0ff;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display: flex;
+  }
+
+  ul {
+    color: #00008b;
+    gap: 60px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    list-style: none;
+    display: flex;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 200px;
+    display: flex;
+  }
+
+  footer {
+    color: #00008b;
+    background-color: #0ff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+  }
+
+  footer p {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+  }
 }
 
-h1 {
-  color: #00008b;
-  font-family: Roboto;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 36px;
+@media screen and (width >= 500px) and (width <= 900px) {
+  body {
+    background-color: #00ffff49;
+  }
+
+  h1 {
+    color: #00008b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #00008b;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+  }
+
+  header {
+    background-color: #0ff;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display: flex;
+  }
+
+  ul {
+    color: #00008b;
+    gap: 60px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    list-style: none;
+    display: flex;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 100px;
+    display: flex;
+  }
+
+  footer {
+    color: #00008b;
+    background-color: #0ff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+  }
+
+  footer p {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+  }
 }
 
-p {
-  color: #00008b;
-  font-family: Merriweather;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 38px;
-}
+@media screen and (width <= 500px) {
+  body {
+    background-color: #00ffff49;
+  }
 
-header {
-  background-color: #0ff;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  display: flex;
-}
+  h1 {
+    color: #00008b;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+  }
 
-ul {
-  color: #00008b;
-  gap: 60px;
-  font-family: Merriweather;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-  list-style: none;
-  display: flex;
-}
+  p {
+    color: #00008b;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+  }
 
-main {
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  padding: 100px 200px;
-  display: flex;
-}
+  header {
+    background-color: #0ff;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display: flex;
+  }
 
-footer {
-  color: #00008b;
-  background-color: #0ff;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-}
+  ul {
+    color: #00008b;
+    gap: 20px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    list-style: none;
+    display: flex;
+  }
 
-footer p {
-  font-family: Merriweather;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 100px;
+    display: flex;
+  }
+
+  footer {
+    color: #00008b;
+    background-color: #0ff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+  }
+
+  footer p {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+  }
 }
 /*# sourceMappingURL=index.2cdaf7bc.css.map */
