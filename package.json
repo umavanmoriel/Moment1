@@ -5,11 +5,12 @@
   "license": "ISC",
   "source": "src/pages/index.html",
   "scripts": {
-    "start" : "parcel",
-    "build" : "parcel build"
-   },
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "description": "",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "sharp": "^0.33.5"
   }
 }
