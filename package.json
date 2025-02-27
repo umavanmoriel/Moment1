@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Uma Vanmoriel",
   "license": "ISC",
-  "source": "src/index.html",
+  "source": "src/pages/index.html",
   "scripts": {
     "start" : "parcel",
     "build" : "parcel build"
