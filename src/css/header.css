@@ -44,6 +44,7 @@
         align-items: center;
         gap: 5px;
         padding: 20px 0px;
+        list-style: none;
     }
 
     .menu-heading {
@@ -71,7 +72,7 @@
         padding: 0px 200px;
     }
     
-    ul {
+    nav ul {
         display: flex;
         gap: 60px;
         font-family: 'Roboto';
@@ -129,6 +130,7 @@
         align-items: center;
         gap: 5px;
         padding: 20px 0px;
+        list-style: none;
     }
 
     .menu-heading {
@@ -156,7 +158,7 @@
         padding: 0px 50px;
     }
     
-    ul {
+    nav ul {
         display: flex;
         gap: 60px;
         font-family: 'Roboto';
@@ -215,6 +217,7 @@
         align-items: center;
         gap: 5px;
         padding: 20px 0px;
+        list-style: none;
     }
 
     .menu-heading {
@@ -236,7 +239,7 @@
         padding: 0px 10px;
     }
     
-    ul {
+    nav ul {
         display: flex;
         gap: 10px;
         font-family: 'Roboto';

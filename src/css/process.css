@@ -10,8 +10,32 @@ body {
 }
 
 main {
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: darkblue;
+}
+
+.process-list {
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;   
+    padding: 50px; 
+}
+
+.process-list li {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    color: darkblue;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startsida</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/process.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../function.js" type="module"></script>
@@ -34,8 +34,23 @@
         </div>
     </header>
     <main>
-        <h1>Publicering</h1>
-        <p></p>
+        <h1>Publicering och arbetsprocess</h1>
+        <ol type="1" class="process-list">
+            <li>Startade Node.js projekt och gjorde nödvändiga intällningar</li>
+            <li>Installerade Parcel och lagt till scripter start och build</li>
+            <li>Skapade mapp scr där placerades alla filer med html, css och js</li>
+            <li>Flyttar node_modules och .parcel-cache till .gitignore</li>
+            <li>Provar att allt fungerar genom att skriva kommando "npm run start" och skapar index.html filen för startsida</li>
+            <li>Sedan skriver kommando "npm run build" och kontrollerar att dist mappen skapas </li>
+            <li>Publicerar mitt projekt i Github</li>
+            <li>Sedan deploy min Github projekt på Netlify konto och gjorde nödvändiga inställningar</li>
+            <li>Efteråt skapar ny dev-branch i Github där utvecklar min websida och gjorde regelbundna commit och push</li>
+            <li>Flyttar allt till main-branch och fortsätter utveckling av websidan</li>
+            <li>Under utveckling använder kommando "npm run start" för att kolla hur sidan ser ut i localhost</li>
+            <li>Transpilering, minifiering och Kopiering av arbetsfiler till mapp för publicering med optimerade filer utförs automatiskt Node.js oxh Parcel</li>
+            <li>För att optimera bilder installerade jag sharp och använde picture element där png bilder skulle transforemras från png till webp</li>
+            <li>Ändringar publiceras på webbsidan när man använder commit och push på main branch</li>
+        </ol>
     </main>
     <footer>
         <p>VT2025 DT211G Datateknik GR (B)</p>
