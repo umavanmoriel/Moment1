@@ -596,13 +596,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"n0lrN":[function(require,module,exports,__globalThis) {
-// Dropdown menu
-const menuEl = document.getElementById("menu");
-const dropdownEl = document.getElementById("dropdown-menu");
-menuEl.addEventListener('click', ()=>{
-    dropdownEl.classList.toggle('show');
-});
 
 },{}]},["3i5S3","n0lrN"], "n0lrN", "parcelRequire94c2")
 
-//# sourceMappingURL=index.041c07f7.js.map
+//# sourceMappingURL=photo.041c07f7.js.map

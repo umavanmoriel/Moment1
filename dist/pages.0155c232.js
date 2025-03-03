@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"3i5S3":[function(require,module,exports,__globalThis) {
+})({"fs7DT":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "be659097041c07f7";
+module.bundle.HMR_BUNDLE_ID = "b5ac21f30155c232";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -595,14 +595,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"n0lrN":[function(require,module,exports,__globalThis) {
-// Dropdown menu
-const menuEl = document.getElementById("menu");
-const dropdownEl = document.getElementById("dropdown-menu");
-menuEl.addEventListener('click', ()=>{
-    dropdownEl.classList.toggle('show');
-});
+},{}],"7afug":[function(require,module,exports,__globalThis) {
 
-},{}]},["3i5S3","n0lrN"], "n0lrN", "parcelRequire94c2")
+},{}]},["fs7DT","7afug"], "7afug", "parcelRequire94c2")
 
-//# sourceMappingURL=index.041c07f7.js.map
+//# sourceMappingURL=pages.0155c232.js.map
